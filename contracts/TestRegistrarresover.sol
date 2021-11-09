@@ -4,7 +4,7 @@ import "./ENS.sol";
 
 /**
  * A registrar that allocates subdomains to the first person to claim them, but
- * expires registrations a fixed period after they're initially claimed.
+ * do not expire registration for a fixed period after they're initially claimed.
  */
 contract TestRegistrar {
     uint constant registrationPeriod = 4 weeks;
